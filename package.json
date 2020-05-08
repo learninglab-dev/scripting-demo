@@ -1,0 +1,26 @@
+{
+  "name": "scripting-demo",
+  "version": "1.0.0",
+  "bin": {
+    "demoscript": "./cli.js"
+  },
+  "description": "Just a simple scripting demo.",
+  "main": "first-script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learninglab-dev/scripting-demo.git"
+  },
+  "author": "Marlon Kuzmick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/learninglab-dev/scripting-demo/issues"
+  },
+  "homepage": "https://github.com/learninglab-dev/scripting-demo#readme",
+  "dependencies": {
+    "moment": "^2.25.3",
+    "yargs": "^15.3.1"
+  }
+}
